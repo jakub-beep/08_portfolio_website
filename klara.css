@@ -18,6 +18,11 @@ h1{
   font-size: 55px;
   font-family: 'Ubuntu', sans-serif;
 }
+.subtitle{
+  padding-top: 30px;
+  text-align:center;
+  font-size: 30px;
+}
 span{
   color: crimson;
 }
