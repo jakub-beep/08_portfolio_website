@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000000;
+  color: #fff;
+}
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background: hsl(0 10% 10%);
+}
+::-webkit-scrollbar-thumb {
+    background: hsl(0 90% 30%);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(0 10% 10%);
+}
+::-webkit-scrollbar-button{
+  border: 30px solid #fff;
+  background-color: #111;
+  border-radius: 30px;
+}
+
+h1{
+  padding-top: 40px;
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.subtitle{
+  padding-top: 30px;
+  text-align:center;
+  font-size: 30px;
+}
+span{
+  color: crimson;
+}
+.layout{
+    padding-top: 50px;
+    font-size: 18px;
+    display: flex;
+}
+.title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: -60px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+ul{
+  padding-top: 20px;
+  list-style-type: disc;
+  color: crimson;
+}
+ul li{
+  padding-top: 5px;
+}
+ul li span{
+  color: #fff;
+}
+
+.description, .gallery{
+  flex: 50%;
+  margin: 0px;
+  padding: 100px 80px;
+  text-align:justify;
+}
