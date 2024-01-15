@@ -30,6 +30,3 @@ It is gonna consist of most my projects, not only from IT world but also from me
 * JS
 * jQuery
 * Font Awesome
-<!-- STATUS -->
-# Status
-The project is still in the phase of development.
